@@ -19,8 +19,8 @@ object MergeSort {
 
   def merge(arr: Array[Int], left: Int, mid: Int, right: Int): Unit = {
     //把传进来的数组按照中值切分为两个数组
-    val sta = arr.slice(left, mid) //slice从0开始，前闭后开
-    val en = arr.slice(mid, right + 1)
+    val sta = arr.slice(left, mid+1) //slice从0开始，前闭后开
+    val en = arr.slice(mid+1, right + 1)
 
     var m = 0
     var n = 0

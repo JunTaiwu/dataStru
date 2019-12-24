@@ -17,8 +17,8 @@ object StruTest {
   }
 
   def merge(arr: Array[Int], low: Int, mid: Int, high: Int): Unit = {
-    val left = arr.slice(low, mid + 1)
-    val right = arr.slice(mid + 1, high + 1)
+    val left = arr.slice(low, mid+1)
+    val right = arr.slice(mid+1, high + 1)
 
     var i = 0
     var j = 0

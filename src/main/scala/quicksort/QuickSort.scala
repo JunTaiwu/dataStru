@@ -23,7 +23,7 @@ object QuickSortDemo {
     var p = arr(left)
 
     while (low < high) {
-      //从low往右，找到一个比p大的值
+      //从low往右，找到一个比p大的值，当arr(low)>p时停止 或者low已经找到high的位置还没有找到，也需要停止
       while (low <= high && arr(low) <= p) {
         low += 1
       }
