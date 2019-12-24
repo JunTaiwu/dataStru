@@ -24,7 +24,7 @@ class CircleQueue[T: ClassTag](size: Int) {
 
   var head = 0
   var tail = 0
-  //采用了一个计数器
+  //采用了一个计数器，
   var count = 0
 
   //是否为空
